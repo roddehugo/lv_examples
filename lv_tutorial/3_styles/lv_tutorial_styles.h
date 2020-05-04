@@ -7,12 +7,12 @@
 #define LV_TUTORIAL_STYLES_H
 
 #ifdef __cplusplus
-lv_tutorialtern "C" {
+extern "C" {
 #endif
 
-    /*********************
-     *      INCLUDES
-     *********************/
+/*********************
+ *      INCLUDES
+ *********************/
 #include "../../lv_examples.h"
 
 #ifndef LV_EX_NO_CONF
