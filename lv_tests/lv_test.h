@@ -13,6 +13,8 @@ extern "C" {
 /*********************
  *      INCLUDES
  *********************/
+#include "../lv_examples.h"
+
 #ifdef LV_CONF_INCLUDE_SIMPLE
 #include "lv_ex_conf.h"
 #else
@@ -20,8 +22,6 @@ extern "C" {
 #endif
 
 #if LV_USE_TESTS
-
-#include "../lv_examples.h"
 
 #include "lv_test_obj/lv_test_obj.h"
 
