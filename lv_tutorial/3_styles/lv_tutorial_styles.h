@@ -25,27 +25,27 @@ extern "C" {
 
 #if LV_USE_TUTORIALS
 
-    /*********************
-     *      DEFINES
-     *********************/
+/*********************
+ *      DEFINES
+ *********************/
 
-    /**********************
-     *      TYPEDEFS
-     **********************/
+/**********************
+ *      TYPEDEFS
+ **********************/
 
-    /**********************
-     * GLOBAL PROTOTYPES
-     **********************/
-    void lv_tutorial_styles(void);
+/**********************
+ * GLOBAL PROTOTYPES
+ **********************/
+void lv_tutorial_styles(void);
 
-    /**********************
-     *      MACROS
-     **********************/
+/**********************
+ *      MACROS
+ **********************/
 
 #endif /*LV_USE_TUTORIALS*/
 
 #ifdef __cplusplus
-} /* lv_tutorialtern "C" */
+} /* extern "C" */
 #endif
 
 #endif /*LV_TUTORIAL_STYLES_H*/
