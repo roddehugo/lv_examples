@@ -31,7 +31,8 @@
  *********************/
 
 #include "lv_tutorial_themes.h"
-#if LV_USE_TUTORIALS && LV_USE_THEME_ALIEN
+
+#if LV_USE_THEME_ALIEN && LV_USE_TUTORIALS
 
 #include "../2_objects/lv_tutorial_objects.h"
 
@@ -82,4 +83,4 @@ void lv_tutorial_themes(void)
  *   STATIC FUNCTIONS
  **********************/
 
-#endif /*LV_USE_TUTORIALS*/
+#endif /*LV_USE_THEME_ALIEN && LV_USE_TUTORIALS*/

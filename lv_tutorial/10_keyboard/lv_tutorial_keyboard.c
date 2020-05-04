@@ -29,7 +29,7 @@
  *      INCLUDES
  *********************/
 #include "lv_tutorial_keyboard.h"
-#if LV_USE_TUTORIALS && LV_USE_GROUP
+#if LV_USE_GROUP && LV_USE_TUTORIALS
 
 /*********************
  *      DEFINES
@@ -288,4 +288,4 @@ static void keypad_event_cb(lv_obj_t * btn, lv_event_t event)
 }
 
 
-#endif /*LV_USE_TUTORIALS*/
+#endif /*LV_USE_GROUP && LV_USE_TUTORIALS*/

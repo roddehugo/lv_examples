@@ -21,7 +21,7 @@ extern "C" {
 #include "../../../lv_ex_conf.h"
 #endif
 
-#if LV_USE_TUTORIALS && LV_USE_ANIMATION
+#if LV_USE_ANIMATION && LV_USE_TUTORIALS
 
 
 /*********************
@@ -45,7 +45,7 @@ void lv_tutorial_animations(void);
  *      MACROS
  **********************/
 
-#endif /*LV_USE_TUTORIALS*/
+#endif /*LV_USE_ANIMATION && LV_USE_TUTORIALS*/
 
 #ifdef __cplusplus
 } /* extern "C" */
